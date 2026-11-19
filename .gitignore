@@ -1,0 +1,10 @@
+# Build output from `MAKEFUN_OUTPUT_DIR=out node main.ts`
+out/
+out-test-a/
+out-test-b/
+
+# Headless-Chrome profiles used by scripts/shots.mjs and scripts/e2e.mjs
+.chrome-shots/
+.chrome-e2e/
+
+node_modules/

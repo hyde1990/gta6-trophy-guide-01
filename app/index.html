@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leonida Ledger — GTA VI Trophy Guide &amp; Tracker</title>
+<meta name="description" content="An offline guide and tracker for all 55 PlayStation 5 trophies of Grand Theft Auto VI: official names, descriptions and grades, a saved checklist, a roadmap to the platinum, the one missable trophy, and a cited guide for every trophy.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <p class="hero-kicker">Grand Theft Auto VI · PlayStation 5 · Offline guide &amp; tracker</p>
+  <h1>Leonida Ledger</h1>
+  <p class="hero-sub">Every one of the 55 official trophies — with a cited guide for each, a roadmap to the platinum, and a checklist that saves in your browser.</p>
+  <p class="hero-facts"><span>55 trophies</span><span>1 Platinum</span><span>2 Gold</span><span>6 Silver</span><span>46 Bronze</span><span>~200 hours to platinum</span><span>1 missable</span><span>0 online trophies</span></p>
+</header>
+
+<section id="progress" class="progress" aria-live="polite"></section>
+
+<section class="controls" aria-label="Filters and progress tools">
+  <label class="control">Search <input id="search" type="search" placeholder="Search name, description or guide…" autocomplete="off"></label>
+  <label class="control">Grade
+    <select id="grade">
+      <option value="all">All grades</option>
+      <option value="platinum">Platinum</option>
+      <option value="gold">Gold</option>
+      <option value="silver">Silver</option>
+      <option value="bronze">Bronze</option>
+    </select>
+  </label>
+  <label class="control">Kind
+    <select id="kind">
+      <option value="all">All kinds</option>
+      <option value="story">Story</option>
+      <option value="missable">Missable</option>
+      <option value="side">Side strands</option>
+      <option value="collectibles">Collectibles</option>
+      <option value="activities">Activities</option>
+      <option value="exploration">Exploration</option>
+      <option value="combat">Combat</option>
+      <option value="economy">Economy</option>
+      <option value="completion">100% completion</option>
+    </select>
+  </label>
+  <label class="control check"><input id="spoiler" type="checkbox" checked> Spoiler-free: hide story trophies until earned</label>
+  <label class="control check"><input id="earned-only" type="checkbox"> Earned only</label>
+  <button id="export" type="button">Export progress</button>
+  <label class="control import">Import progress <input id="import" type="file" accept="application/json,.json"></label>
+  <button id="reset" type="button">Reset</button>
+</section>
+
+<nav class="tabs" aria-label="Views">
+  <button class="tab is-active" type="button" data-view="checklist" aria-selected="true">Checklist</button>
+  <button class="tab" type="button" data-view="roadmap" aria-selected="false">Roadmap to the platinum</button>
+  <button class="tab" type="button" data-view="missables" aria-selected="false">Missables</button>
+</nav>
+
+<main>
+  <section id="view-checklist" class="view">
+    <div class="checklist-wrap">
+      <p id="shown-count" class="shown-count">55 of 55 trophies shown</p>
+      <ul id="rows" class="trophy-list"></ul>
+    </div>
+    <aside id="detail" class="detail" aria-label="Trophy guide"></aside>
+  </section>
+
+  <section id="view-roadmap" class="view" hidden>
+    <p class="view-intro">Five stages, in the order to play them. Story first — the first meditation spot in Chapter 1 is the game's only missable trophy — then side strands, activities, collectibles, and finally money and 100% completion.</p>
+    <div id="roadmap" class="roadmap"></div>
+  </section>
+
+  <section id="view-missables" class="view" hidden>
+    <div id="missables" class="missables"></div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>Names, descriptions and grades are the official PlayStation list as published on 18 November 2026. Every guide is written in our own words for this page, and each one names its sources so you can check every fact. This guide works fully offline and fetches nothing.</p>
+  <p>Sources: PowerPyx — GTA 6 Trophy Guide &amp; Roadmap; PlanetGTA6 — GTA 6 Trophies: All 55; OutputLag — GTA 6 Trophy List; GGRecon — GTA 6's trophy list. No Rockstar logo or official artwork is used.</p>
+</footer>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

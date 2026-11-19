@@ -1,0 +1,1 @@
+{"description":"Leonida Ledger — an offline GTA VI trophy guide and tracker for all 55 PlayStation 5 trophies.","license":"MIT","name":"leonida-ledger","private":true,"scripts":{"build":"node main.ts","e2e":"node scripts/e2e.mjs","shots":"node scripts/shots.mjs","start":"node serve.ts","test":"node --test tests/*.test.mjs"},"type":"module","version":"1.0.0"}
